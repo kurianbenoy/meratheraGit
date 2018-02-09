@@ -55,7 +55,7 @@ then
   git pull --rebase origin master
 fi
 
-if [ $input = '6']
+if [ $input = '6' ]
 then
   echo "Name the new branch"
   read branch
