@@ -63,7 +63,7 @@ then
   git push origin master
 fi
 
-if [ $input = '5' ]
+if [ $input = '6' ]
 then
   git push origin master --force
 fi
