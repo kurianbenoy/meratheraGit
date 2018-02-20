@@ -14,9 +14,9 @@ echo "3. ADD ALL FILES and COMMIT"
 echo "4. ADD All files, COMMIT AND PUSH"
 echo "5.PUSH the branch"
 echo "6.FORCE PUSH THE branch"
-echo "6. PULL From origin"
-echo "7. ADD new branch"
-echo "8. ADD new remote"
+echo "7. PULL From origin"
+echo "8. ADD new branch"
+echo "9. ADD new remote"
 
 
 read input
