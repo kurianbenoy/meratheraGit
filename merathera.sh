@@ -2,12 +2,14 @@
 echo "                              STATUS
 ==============================================================================="
 git status
+
 if [ $? -ne 0 ]
 then
     echo 'That is not a GIT repository'
     exit 1
 fi
 echo "===============================================================================
+
 
 
 ENTER THE OPTION
@@ -28,6 +30,8 @@ if [ $INPUT -ne 1 ]
 then
     git add .
 fi
+
+#Code for all the logic
 
 case $INPUT in
 
